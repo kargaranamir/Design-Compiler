@@ -1,0 +1,7 @@
+How to test: 
+./calc
+
+How to make:
+yacc -d calc.y
+lex calc.l
+cc -o calc y.tab.c lex.yy.c

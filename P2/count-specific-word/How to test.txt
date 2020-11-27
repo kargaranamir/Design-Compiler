@@ -1,0 +1,7 @@
+How to test: 
+./count
+
+How to make:
+lex count.l
+
+cc lex.yy.c -o count -ll

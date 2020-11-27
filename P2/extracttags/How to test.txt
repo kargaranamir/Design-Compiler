@@ -1,0 +1,7 @@
+How to test: 
+./extracttags < tags.txt
+
+How to make:
+lex extracttags.l
+
+cc lex.yy.c -o extracttags -ll

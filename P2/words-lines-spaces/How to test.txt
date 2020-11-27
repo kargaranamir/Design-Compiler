@@ -1,0 +1,7 @@
+How to test: 
+./wls < in.txt
+
+How to make:
+lex wls.l
+
+cc lex.yy.c -o wls -ll

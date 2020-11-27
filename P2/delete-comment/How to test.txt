@@ -1,0 +1,6 @@
+How to test: 
+./abc
+
+How to make:
+lex extracttags.l
+cc lex.yy.c -o abc -ll
